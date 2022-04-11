@@ -67,7 +67,7 @@ export default function VideoCall(props) {
   }, [channelName, client, ready, tracks]);
 
   return (
-    <Grid container direction="column" style={{ height: "740px" }}>
+    <Grid container direction="column" style={{ height: "740px" ,minWidth:"600px"}}>
       <Grid item style={{ height: "5%" }}>
         {ready && tracks && (
           <Controls tracks={tracks} setStart={setStart} setInCall={setInCall} />
