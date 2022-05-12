@@ -4,7 +4,6 @@ import Box from "@material-ui/core/Box";
 import {Context} from "../index";
 import firebase from "firebase";
 
-
 const Login = () => {
     const {auth} = useContext(Context)
 
